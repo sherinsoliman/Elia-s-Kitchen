@@ -1,0 +1,609 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1, 7;
+    color: #121212;
+}
+
+#heroSlider .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*Fonts*/
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #222;
+}
+
+h2 {
+    font-size: 40px;
+    color: #121212;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+h3 {
+    font-size: 34px;
+    color: #121212;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 28px;
+    color: #121212;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 23px;
+    color: #404040;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+h6 {
+    font-size: 18px;
+    font-style: italic;
+    color: #404040;
+    font-weight: 400;
+    padding-top: 8px;
+}
+
+p {
+    font-size: 16px;
+    color: #121212;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+/*Hero_Fonts*/
+
+.display-1 {
+    font-size: 54px;
+    color: #fcfcfc;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.display-5 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #fcfcfc;
+    font-weight: 400;
+}
+
+
+
+
+/*Primary-Button*/
+.btn {
+    border-radius: 30px;
+    border: none;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-main {
+    background-color: #12121200;
+    color: gold;
+    border-color: gold;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.btn-main:hover {
+    background-color: gold;
+    color: #121212;
+}
+
+/*Secondary-Button*/
+.btn-secondary {
+    background-color: gold;
+    color: #121212;
+    border-color: gold;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 12px;
+}
+
+.btn-secondary:hover {
+    background-color: #121212;
+    color: gold;
+    border-color: gold;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/*Tertiary-Button*/
+.btn-tertiary {
+    background-color: #fefefe;
+    color: #121212;
+    margin-top: 12px;
+    margin-left: 12px;
+    border: #121212;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.btn-tertiary:hover {
+    background-color: #121212;
+    color: #fefefe;
+}
+
+
+/*Navbar*/
+.custom-btn {
+    border-radius: 30px !important;
+    border: none !important;
+    padding: 12px 32px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+.btn-custom-main {
+    background-color: transparent !important;
+    color: gold !important;
+    border-color: gold !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+}
+
+.btn-custom-main:hover {
+    background-color: gold !important;
+    color: #121212 !important;
+}
+
+
+.navbar {
+    background-color: #191717d0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.359);
+    height: 80px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #f4f4f4;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding: 0px 16px;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+.navbar-brand img {
+    width: 250px;
+    height: auto;
+}
+
+/*Sliders*/
+.slide-1 {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Source.img/images/Steak-Slide1-bg.png)
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Source.img/images/Cooking\ school.jpg)
+}
+
+.bg-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heroSlider h5::after,
+#heroSlider h5::before {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color: #c5c5c5;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+/*.carousel-control-prev {}
+.carousel-control-next {} */
+
+img {
+    width: 100%;
+}
+
+/*About Section*/
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about .col-lg-5,
+#about .col-lg-7 {
+    padding: 28px;
+}
+
+#about .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #121212;
+}
+
+
+/*Image Slider*/
+.container-image-slider {
+    max-width: 1200px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.image-container {
+    position: relative; 
+}
+
+.container-image-slider .slider-scrollbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button:hover {
+    background: #404040;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+    left: -20px;
+    display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+    right: -20px;
+}
+
+.slider-wrapper .image-list {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 18px;
+    font-size: 0;
+    list-style: none;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+/* Slidebar mobile & tablets*/
+@media (max-width: 1024px) {
+    .slider-wrapper .slide-button {
+        display: none !important;
+    }
+
+    .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .slider-wrapper.image-list .image-item {
+        width: 280px;
+        height: 380px;
+    }
+
+    .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+}
+
+/* Intro Text*/
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text h2 {
+    text-align: center; 
+    margin-bottom: 12px;
+}
+
+.intro-text p {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link{
+     background-color: #fefefe;
+     margin-left: 8px;
+     margin-right: 8px;
+     color: #121212;
+     border-radius: 30px;
+     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1) ;
+}
+#menu .nav-pills .nav-link.active{
+    background-color: gold;
+    color: #121212;
+}
+
+.menu-item .stars{
+color: goldenrod;
+}
+
+.menu-item .image{
+size: 150px, 200px;
+}
+
+.shadow-on-hover{
+    transition: all 0.4s
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2) ;
+}
+
+
+/* Testimonials */
+#reviews {
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Source.img/images/restuarant\ interior\ 2.jpg);
+background-size: cover;
+}
+
+.review img{
+    width: 40px;
+    height: 60px;
+    object-fit: cover;
+}
+.review{
+   background-color:#fcfcfcc0;
+   border-radius: 20px;
+}
+.review .quote-icon{
+    font-size: 38px;
+    color:#252525;
+    line-height: 1;
+}
+
+.review .stars{
+    color: #252525;
+}
+
+#reviews .carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+
+/*Reservation*/
+#reservation .form-control{
+    border-radius: 6px;
+}
+
+#reservation .form-control:focus{
+    box-shadow: none;
+    border-color: #000;
+}
+
+
+#reservation input.form-control{
+    height: 48px;
+}
+
+
+/*Latest Insta - Recipes*/
+ .insta-posts {
+    position: relative;
+ }
+
+ .insta-posts .insta-btn{
+    width: 90px;
+    height: 90px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+ }
+
+.insta-posts img{
+    transition: all 0.4s;
+    overflow: hidden;
+}
+
+.insta-posts:hover img{
+    transform: scale(1.1);
+}
+
+.insta-posts:hover .insta-btn{
+    opacity: 0.9;
+}
+
+
+/*Recipes Blog*/
+.blog-post img{
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+}
+.blog-para{
+text-align: justify;
+}
+
+.blog-post-content .date{
+    color:#40404099;
+}
+
+@media (max-width: 768px) {
+#recipe-blog .blog-post{
+    flex-direction: column !important;
+}
+#recipe-blog .blog-post img{
+    width: 100% !important;
+}
+} 
+
+#recipe-blog .blog-post{
+    height: 400px;
+}
+
+/*Footer*/
+footer{
+    width: auto;
+    background-color: #121212;
+    color: #f4f4f4;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+footer img{
+    max-width: 300px;
+    padding-bottom: 0;
+}
+
+footer a{
+font-weight:normal ;
+font-size: 24px;
+margin-right: 10px;
+color: #f4f4f4;
+}
+ 
+.footer-top{
+margin-bottom: 30px;
+}
+
+footer .footer-top .footer-text{
+    color: #f4f4f4;
+}
+
+footer .footer-top .h6-footer{
+    color: #f4f4f4c4;
+}
+
+.footer-bottom{
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+a {
+    color: #121212;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover {
+    color: gold;
+}
