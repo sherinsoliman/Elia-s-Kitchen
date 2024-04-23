@@ -26,7 +26,7 @@ The website is built using the latest in web development standards:
 ## Setup
 
 To set up a local version of the website:
-1. Clone this repository to your local machine using `git clone https://github.com/username/elias-kitchen.git`
+1. Clone this repository to your local machine using `git clone https://github.com/sherinsoliman/elias-kitchen.git`
 2. Navigate to the project directory.
 3. Open the `index.html` file in your web browser to view the project.
 
